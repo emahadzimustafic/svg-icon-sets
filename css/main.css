@@ -51,7 +51,7 @@ a {
   text-decoration: none;
   color:#fff;
   padding: 1.2rem .8rem .8rem;
-  margin: .7rem .7rem 0rem .7rem;
+  margin: .5rem .7rem 0rem .7rem;
   text-align: center;
 }
 
@@ -100,9 +100,8 @@ figure {
     padding-top: .5rem;
   }
 
-
   body {
-    margin: 3rem 1rem 1rem;
+    margin: 4rem 1rem 1rem;
   }
 
   figure {
@@ -135,7 +134,7 @@ figure {
 @media only screen and (min-width: 90em) {
 
   section {
-  gap: 4rem;
+  gap: 5rem;
   }
 
   h2 {
@@ -143,7 +142,7 @@ figure {
   }
 
   body {
-    padding: 2rem 5rem 5rem;
+    padding: 2rem 6rem 6rem;
   }
 
   section {
