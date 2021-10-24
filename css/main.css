@@ -102,6 +102,8 @@ figure {
 
   body {
     margin: 2.5rem 1rem 1rem;
+    background-image: linear-gradient(#ff9500, #ff5e3a);
+    background-attachment: fixed;
   }
 
   figure {
@@ -138,8 +140,8 @@ figure {
 @media only screen and (min-width: 90em) {
 
   section {
-    gap: 5rem;
-    padding-top: 4.5rem;
+    gap: 6rem;
+    padding-top: 4rem;
   }
 
   h2 {
@@ -147,7 +149,9 @@ figure {
   }
 
   body {
-    padding: 1rem 5rem 5rem;
+    padding: 1.5rem 4rem 4rem;
+    background-image: linear-gradient(#ff9500, #ff5e3a);
+    background-attachment: fixed;
   }
 
   figcaption a {
