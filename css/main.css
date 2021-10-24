@@ -47,7 +47,7 @@ a {
   text-decoration: none;
   color: #fff;
   padding: 1rem;
-  margin: 0 1rem;
+  margin: 0 .5rem;
 }
 
 .icon {
@@ -89,11 +89,11 @@ figure {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
     "row1 row2 row3";
-    gap: 6vmin;
+    gap: 7vmin;
   }
 
   body {
-  margin: 2rem;
+  margin: 2.5rem 2rem 2rem;
   }
 
   figure {
@@ -123,6 +123,7 @@ figure {
 }
 
 @media only screen and (min-width: 90em) {
+
   h2 {
     text-align: center;
   }
