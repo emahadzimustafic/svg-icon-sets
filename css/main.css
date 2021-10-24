@@ -36,7 +36,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: normal;
 }
 
@@ -90,6 +90,10 @@ figure {
     grid-template-areas:
     "row1 row2 row3";
     gap: 6vmin;
+  }
+
+  body {
+  margin: 2rem;
   }
 
   figure {
