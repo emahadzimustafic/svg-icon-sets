@@ -1,9 +1,10 @@
 html {
   box-sizing: border-box;
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
   line-height: 1.5;
   color: #fff;
-  min-height: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 *, *::before, *::after {
@@ -80,11 +81,11 @@ figure {
 
 @media only screen and (min-width: 38em) {
   section {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas:
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
     "row1 row2 row3";
-  gap: 6vmin;
+    gap: 6vmin;
   }
 
   figure {
@@ -95,8 +96,7 @@ figure {
 
   figure a {
     justify-content: flex-end;
-    margin-top: auto;
-    margin: 0;
+    margin: auto 0 0 0;
   }
 
   figure h3 {
@@ -120,7 +120,7 @@ figure {
   }
 
   a {
-  display: block;
+    display: block;
   }
 
 }
