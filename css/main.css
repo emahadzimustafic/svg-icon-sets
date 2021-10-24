@@ -49,8 +49,8 @@ a {
   border: .2rem solid rgba(255, 255, 255, .7);
   text-decoration: none;
   color:#fff;
-  padding: 1.1rem .8rem .8rem;
-  margin: .5rem .6rem 0rem .6rem;
+  padding: 1.3rem 1rem 1rem;
+  margin: .5rem .6rem 0.6rem;
   text-align: center;
 }
 
@@ -94,14 +94,14 @@ figure {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
       "row1 row2 row3";
-    gap: 7vmin;
+    gap: 6vmin;
 
     padding-top: .5rem;
-    margin: 1rem;
   }
 
+
   body {
-    margin: 2.5rem 2rem 2rem;
+    margin: 1.5rem 1rem 1rem;
   }
 
   figure {
