@@ -49,9 +49,9 @@ a {
   list-style-type: none;
   border: .2rem solid rgba(255, 255, 255, .7);
   text-decoration: none;
-  color:#fff;
+  color: #fff;
   padding: 1.2rem .8rem .8rem;
-  margin: .5rem .7rem 0rem .7rem;
+  margin: .5rem .7rem 0rem;
   text-align: center;
 }
 
@@ -101,7 +101,7 @@ figure {
   }
 
   body {
-    margin: 4rem 1rem 1rem;
+    margin: 2rem 1rem 1rem;
   }
 
   figure {
@@ -134,7 +134,8 @@ figure {
 @media only screen and (min-width: 90em) {
 
   section {
-  gap: 5rem;
+  gap: 3rem;
+  padding-top: 5rem;
   }
 
   h2 {
@@ -142,11 +143,7 @@ figure {
   }
 
   body {
-    padding: 2rem 6rem 6rem;
-  }
-
-  section {
-    padding-top: 5rem;
+    padding: 1rem 6rem 6rem;
   }
 
   figcaption a {
