@@ -14,7 +14,7 @@ html {
 body {
   background-image: linear-gradient(#ff9500, #ff5e3a);
   margin: 0;
-  padding: 0 1.5rem 1.5rem;
+  padding: 0 1.125rem 1.125rem;
 }
 
 section {
@@ -50,7 +50,7 @@ a {
   text-decoration: none;
   color:#fff;
   padding: 1.125rem 1rem 1rem;
-  margin: 0 .7rem;
+  margin: 0 .6rem;
 }
 
 .icon {
