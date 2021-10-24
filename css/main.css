@@ -1,13 +1,12 @@
 html {
   box-sizing: border-box;
-/*  font-family: "Overpass", sans-serif; */
   font-family: "Overpass", sans-serif;
   line-height: 1.5;
   color: #fff;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
-/* */
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -142,7 +141,7 @@ figure {
 
   section {
     gap: 6rem;
-    padding-top: 4rem;
+    padding-top: 3.5rem;
   }
 
   h2 {
@@ -150,7 +149,7 @@ figure {
   }
 
   body {
-    padding: 1.5rem 4rem 4rem;
+    padding: 2rem 3.5rem 3.5rem;
     background-image: linear-gradient(#ff9500, #ff5e3a);
     background-attachment: fixed;
   }
