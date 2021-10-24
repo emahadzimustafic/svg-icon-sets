@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Overpass", sans-serif;
+  font-family: 'Overpass', sans-serif;
   line-height: 1.5;
   color: #fff;
   -webkit-text-size-adjust: 100%;
@@ -13,7 +13,7 @@ html {
 
 body {
   background-image: linear-gradient(#ff9500, #ff5e3a);
-  margin: 0 1.5rem 1.5rem;
+  margin: 1.5rem;
 }
 
 section {
@@ -26,13 +26,14 @@ section {
   gap: 6vmin;
 }
 
-h1  {
+h1 {
   font-size: 2rem;
 }
 
 h2 {
   font-size: 1.5rem;
   text-align: center;
+  margin-bottom: .5rem;;
 }
 
 h3 {
@@ -46,8 +47,8 @@ a {
   border: .2rem solid rgba(255, 255, 255, .7);
   text-decoration: none;
   color: #fff;
-  padding: 1rem;
-  margin: 0 .5rem;
+  padding: 1.125rem 1rem 1rem ;
+  margin: 0 1rem;
 }
 
 .icon {
@@ -84,16 +85,17 @@ figure {
 }
 
 @media only screen and (min-width: 38em) {
+
   section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
-    "row1 row2 row3";
+      "row1 row2 row3";
     gap: 7vmin;
   }
 
   body {
-  margin: 2.5rem 2rem 2rem;
+    margin: 2.5rem 2rem 2rem;
   }
 
   figure {
@@ -117,7 +119,7 @@ figure {
     text-align: left;
   }
 
-  h1  {
+  h1 {
     text-align: center;
   }
 }
