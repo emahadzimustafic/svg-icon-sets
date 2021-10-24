@@ -110,6 +110,10 @@ figure {
     flex-grow: 1;
   }
 
+  figcaption {
+    padding-top: .5rem;
+  }
+
   figure a {
     justify-content: flex-end;
     margin: auto 0 0;
@@ -134,7 +138,7 @@ figure {
 @media only screen and (min-width: 90em) {
 
   section {
-    gap: 3rem;
+    gap: 5rem;
     padding-top: 4.5rem;
   }
 
@@ -147,6 +151,7 @@ figure {
   }
 
   figcaption a {
-    display: block;
+    text-align: center;
+    margin: 0 3.5rem;
   }
 }
