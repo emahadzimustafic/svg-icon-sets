@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
   line-height: 1.5;
   color: #fff;
   -webkit-text-size-adjust: 100%;
@@ -97,7 +97,7 @@ figure {
       "row1 row2 row3";
     gap: 6vmin;
 
-    padding-top: .5rem;
+    padding-top: .8rem;
   }
 
   body {
@@ -135,7 +135,7 @@ figure {
 
   section {
     gap: 3rem;
-    padding-top: 5rem;
+    padding-top: 4.5rem;
   }
 
   h2 {
@@ -143,7 +143,7 @@ figure {
   }
 
   body {
-    padding: 1rem 6rem 6rem;
+    padding: 1rem 5rem 5rem;
   }
 
   figcaption a {
