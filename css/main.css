@@ -13,7 +13,7 @@ html {
 
 body {
   background-image: linear-gradient(#ff9500, #ff5e3a);
-  margin: 1.5rem;
+  margin: 1.125rem;
 }
 
 section {
@@ -28,12 +28,13 @@ section {
 
 h1 {
   font-size: 2rem;
+  margin: auto;
 }
 
 h2 {
   font-size: 1.5rem;
   text-align: center;
-  margin-bottom: .5rem;;
+  margin-bottom: .5rem;
 }
 
 h3 {
@@ -48,7 +49,7 @@ a {
   text-decoration: none;
   color: #fff;
   padding: 1.125rem 1rem 1rem ;
-  margin: 0 1rem;
+  margin: 0 .5rem;
 }
 
 .icon {
@@ -92,6 +93,9 @@ figure {
     grid-template-areas:
       "row1 row2 row3";
     gap: 7vmin;
+
+    padding-top: .5rem;
+    margin: 1rem;
   }
 
   body {
@@ -131,11 +135,15 @@ figure {
   }
 
   body {
-    padding: 1.5rem;
+    padding: 1rem;
   }
 
-  a {
+  section {
+    padding-top: 5rem;
+  }
+
+  figcaption {
     display: block;
-  }
 
+  }
 }
