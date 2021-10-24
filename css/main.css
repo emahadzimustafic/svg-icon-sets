@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Overpass", sans-serif;
+  font-family: 'Overpass', sans-serif;
   line-height: 1.5;
   color: #fff;
   -webkit-text-size-adjust: 100%;
@@ -51,7 +51,7 @@ a {
   text-decoration: none;
   color: #fff;
   padding: 1.2rem .8rem .8rem;
-  margin: .5rem .7rem 0rem;
+  margin: .5rem .7rem 0;
   text-align: center;
 }
 
@@ -101,7 +101,7 @@ figure {
   }
 
   body {
-    margin: 2rem 1rem 1rem;
+    margin: 2.5rem 1rem 1rem;
   }
 
   figure {
@@ -134,8 +134,8 @@ figure {
 @media only screen and (min-width: 90em) {
 
   section {
-  gap: 3rem;
-  padding-top: 5rem;
+    gap: 3rem;
+    padding-top: 5rem;
   }
 
   h2 {
@@ -148,6 +148,5 @@ figure {
 
   figcaption a {
     display: block;
-
   }
 }
