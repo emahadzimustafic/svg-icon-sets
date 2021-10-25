@@ -18,6 +18,7 @@ body {
 section {
   display: flex;
   flex-wrap: wrap;
+
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
@@ -25,12 +26,11 @@ section {
     "row2"
     "row3";
   gap: 6vmin;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .wrapper {
   background-image: linear-gradient(#ff9500, #ff5e3a);
-  background-attachment: fixed;
 }
 
 h1 {
