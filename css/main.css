@@ -140,7 +140,6 @@ figure {
   a {
     margin: 0;
   }
-
 }
 
 @media only screen and (min-width: 90em) {
@@ -151,26 +150,5 @@ figure {
 
   a {
     margin: .5rem 4rem;
-  }
-
-
-/*section {
-    gap: 6rem;
-    padding-top: 3.5rem;
-  }
-
-  h2 {
-    text-align: center;
-  }
-
-  body {
-    padding: 2rem 4.5rem 4.5rem;
-    background-image: linear-gradient(#ff9500, #ff5e3a);
-    background-attachment: fixed;
-  }
-
-  figcaption a {
-    text-align: center;
-    margin: .5rem 3.5rem;
   }
 }
