@@ -22,11 +22,9 @@ section {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
-    "row1"
-    "row2"
-    "row3";
+    "col1";
   gap: 6vmin;
-  padding: 1rem;
+  padding: 1.3rem;
 }
 
 .wrapper {
@@ -36,18 +34,19 @@ section {
 h1 {
   font-size: 2rem;
   margin: 0;
+  grid-area: banner;
 }
 
 h2 {
   font-size: 1.5rem;
   text-align: center;
-  margin-bottom: 0;
-  padding-top: .5rem;
+  margin: 0;
 }
 
 h3 {
   font-size: 1rem;
   font-weight: normal;
+  padding-top: .4rem;
 }
 
 a {
@@ -84,18 +83,61 @@ figcaption {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  padding-top: 1.5rem;
 }
 
 figure {
   padding: 0;
   margin: 0;
+
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-grow: 1;
 }
 
-/*@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 38em) {
 
+  section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "spann spann spann"
+    "col1 col2 col3";
+  gap: 6vmin;
+  }
+
+  header {
+    grid-area: spann;
+    justify-self: center;
+    max-width: 30em;
+  }
+
+  figure:nth-of-type(1) {
+    grid-area: col1;
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  figure:nth-of-type(2) {
+    grid-area: col2;
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  figure:nth-of-type(3) {
+    grid-area: col3;
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  a {
+    margin: 0;
+  }
+
+}
+
+/*
   section {
     display: grid;
     grid-template-rows: 1fr;
