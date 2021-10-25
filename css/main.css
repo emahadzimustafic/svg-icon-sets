@@ -61,7 +61,8 @@ a {
 }
 
 .icon {
-  position: relative;
+  position:relative;
+  align-self: center;
   width: 8em;
   height: 8em;
 }
