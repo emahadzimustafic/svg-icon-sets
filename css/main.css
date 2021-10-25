@@ -16,9 +16,6 @@ body {
 }
 
 section {
-  display: flex;
-  flex-wrap: wrap;
-
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
@@ -61,7 +58,7 @@ a {
 }
 
 .icon {
-  position:relative;
+  position: relative;
   align-self: center;
   width: 8em;
   height: 8em;
@@ -100,13 +97,13 @@ figure {
 @media only screen and (min-width: 38em) {
 
   section {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-areas:
-    "spann spann spann"
-    "col1 col2 col3";
-  gap: 6vmin;
-  padding: 6vmin;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      "spann spann spann"
+      "col1 col2 col3";
+    gap: 6vmin;
+    padding: 6vmin;
   }
 
   h2 {
@@ -140,6 +137,7 @@ figure {
   a {
     margin: 0;
   }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -151,4 +149,5 @@ figure {
   a {
     margin: .5rem 4rem;
   }
+
 }
