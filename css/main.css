@@ -84,6 +84,7 @@ figcaption {
   flex-direction: column;
   flex-grow: 1;
   padding-top: 1.5rem;
+  justify-content: space-between;
 }
 
 figure {
@@ -92,7 +93,6 @@ figure {
 
   display: flex;
   flex-direction: column;
-  align-items: center;
   flex-grow: 1;
 }
 
@@ -105,6 +105,11 @@ figure {
     "spann spann spann"
     "col1 col2 col3";
   gap: 6vmin;
+  padding: 6vmin;
+  }
+
+  h2 {
+    text-align: left;
   }
 
   header {
